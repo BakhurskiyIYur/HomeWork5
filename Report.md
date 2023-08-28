@@ -5,4 +5,4 @@
 
 * создать новый проект в Google Cloud Platform, Яндекс облако или на любых ВМ, докере
 * далее создать инстанс виртуальной машины с дефолтными параметрами, добавить свой ssh ключ в metadata ВМ
-  > скрин: <img src="pic/1.jpg" align="center" />
+  > скрин: <img src="pic/error.jpg" align="center" />
