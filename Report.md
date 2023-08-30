@@ -56,16 +56,6 @@
   > <img src="pic/19_3.JPG" align="center" />
 
 # Задание со *:
-Написать анонимную процедуру, в которой в цикле 10 раз обновятся все строчки в искомой таблице. Не забыть вывести номер шага цикла.
-
-<br>__*create or replace procedure updater (inc int)*__
-<br>__*language plpgsql*__   
-<br>__*as $$*__
-<br>__*begin*__
-    <br>__*FOR inc IN 1..10*__
-    <br>__*LOOP*__
-        <br>__*RAISE NOTICE 'Step: %', inc;*__
-        <br>__*update test*__
-		<br>__*set strTxt = strTxt||inc;*__
-    <br>__*END LOOP;*__
-<br>__*end;$$*__
+Написать анонимную процедуру, в которой в цикле 10 раз обновятся все строчки в искомой таблице. 
+<br>Не забыть вывести номер шага цикла.
+  > <img src="pic/exp.JPG" align="center" />
